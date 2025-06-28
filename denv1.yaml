@@ -6,6 +6,10 @@ Outgroup:
   aliases: []
   parents: []
 
+unassigned:
+  aliases: []
+  parents: []
+
 # Genotype roots
 1I:
   aliases: []

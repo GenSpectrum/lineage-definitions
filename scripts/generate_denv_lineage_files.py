@@ -78,9 +78,9 @@ def generate_hierarchy_file(
 
     # Create output directory structure
     if dataset_tag:
-        subtype_dir = os.path.join(output_dir, dataset_tag)
+        subtype_dir = os.path.join("definitions", output_dir, dataset_tag)
     else:
-        subtype_dir = Path(output_dir)
+        subtype_dir = os.path.join("definitions", output_dir)
     os.makedirs(subtype_dir, exist_ok=True)
 
     # Write hierarchy file
